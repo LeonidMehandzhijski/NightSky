@@ -1,0 +1,83 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #8e44ad, #9b59b6);
+  overflow-x: hidden;
+}
+
+/* App container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Button styles */
+.button {
+  background-color: #ffffff;
+  color: #8e44ad;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+/* Message styles */
+.message {
+  background-color: #8e44ad;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.message:hover {
+  background-color: #732d91;
+}
+
+/* Night sky container for step 3 */
+.night-sky-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: black;
+}
+
+/* The canvas for drawing stars */
+.night-sky-canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Romantic message overlay */
+.romantic-message {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  max-width: 90%;
+}
+
+
