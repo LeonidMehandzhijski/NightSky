@@ -31,7 +31,7 @@ export default function App() {
                     <NightSky />
                     <div className="romantic-message">
                         This is how the night sky looked that very day. I will forever remember
-                        the moment and will forever love you. My habibi ❤️
+                        the moment and will forever love you. My habibi <span role="img" aria-label="heart">❤️</span>
                     </div>
                 </div>
             )}
